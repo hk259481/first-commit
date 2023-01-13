@@ -1,0 +1,138 @@
+
+#head{
+    color: rgb(255, 255, 255);
+    /* line-height: 500px; */
+}
+#para{
+    color: rgb(255, 255, 255);
+}
+.main{   
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+#images{
+background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assesst/images/dawlance\ banner.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+width: 100%;
+height: 500px;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.card-div{
+    border: 2px solid rgba(253, 101, 0, 0.479);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+
+}
+
+.card-div:hover{
+    border-color:rgb(253,101,0);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.Icon{
+    margin: 0 !important;
+    padding: 0 !important;
+  font-size: 30px;
+  
+}
+#card-icon{
+    color: rgb(253,101,0);
+}
+.row{
+    display: flex;
+}
+.card-div-button{
+    border: 2px solid rgb(253,101,0);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color:  rgb(253,101,0);
+    list-style: none;
+    font-size: 20px;
+    padding-left : 20px;
+    text-decoration: none;
+    padding-right: 20px;
+      
+}
+.emailform{   
+    border-color: rgb(253,101,0);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    border: 2px solid rgb(253,101,0);
+    border-radius: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 20px;
+    
+}
+
+span{
+    color: rgb(253,101,0);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.border{
+    border: 2px solid rgb(253,101,0) !important;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+.foot{
+    background-color: rgb(253,101,0);
+}
+
+
+
+.hr{  
+color: rgb(255, 30, 0);
+padding: 4px; 
+}
+/* card css */
+.size{
+    width: 100px;
+}
+
+.yellow{
+    color: gold;
+}
+.cart{
+    color: gray;
+}
+#price{
+    color: red;
+}
+.shadow{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-radius: 50px;
+  }
+
+.p{
+    color:  rgb(253,101,0);
+}
+
